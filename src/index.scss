@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  height: 100vh;
+  max-width: 450px;
+  padding: 0;
+  border: 5px solid #e9788c;
+  position: relative;
+
+  .whiteSpace {
+    height: 200px;
+    width: 8px;
+    background-color: white;
+    position: absolute;
+    bottom: 16px;
+    right: 4px;
+  }
+}
+
+.invitationBgFrame {
+  background-image: url("./imgs/invitation-bg.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quotesSection {
+  text-align: center;
+  max-width: 80%;
+
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: firebrick;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+    font-family: cursive;
+  }
+
+  h4 {
+    font-weight: bolder;
+    white-space: nowrap;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  h5 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 1em 0;
+  }
+
+  .inviteDate {
+    white-space: nowrap;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+  }
+
+  .inviteTime {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  address {
+    font-size: 0.8rem;
+    margin: 0;
+    font-weight: 500;
+  }
+}
